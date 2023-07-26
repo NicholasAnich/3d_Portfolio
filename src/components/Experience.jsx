@@ -75,4 +75,4 @@ function ExperienceCard({ experience }) {
   );
 }
 
-export default Experience;
+export default SectionWrapper(Experience, 'work');
