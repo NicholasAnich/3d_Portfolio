@@ -30,7 +30,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_6kj3z2r',
+        'service_srcwsfs',
         'template_hnfdlno',
         {
           from_name: form.name,
