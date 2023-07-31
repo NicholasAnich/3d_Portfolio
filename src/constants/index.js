@@ -21,8 +21,11 @@ import {
   shopify,
   carrent,
   jobit,
+  usersearch,
+  easybank,
   tripguide,
   threejs,
+  minportfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -198,30 +201,52 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Minimalist Portfolio',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'A Minimalist Portfolio using Next.js and Typescript. With a mobile-first design, it showcases portfolios using grid and flexbox, ensuring responsive presentations.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css_modules',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: minportfolio,
+    source_code_link:
+      'https://github.com/NicholasAnich/next-minimalist-porfolio',
+  },
+  {
+    name: 'Easybank',
+    description:
+      'Easybank Landing Page is a web page for a virtual bank, Easybank, crafted using HTML, SCSS, and JavaScript. It utilizes flexbox and grid layouts, incorporating DOM interactivity, showcasing advanced layout proficiency.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'mobilefirst',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'scss',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: easybank,
+    source_code_link: 'https://github.com/NicholasAnich/Easy-Bank-Lading-Page',
   },
   {
-    name: 'Job IT',
+    name: 'GitHub User Search',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      ' A web tool, built with React, Typescript, and SCSS, to locate GitHub profiles via the GitHub API. Designed with a mobile-first approach, it served as ideal practice for integrating 3rd-party APIs.',
     tags: [
       {
         name: 'react',
@@ -236,29 +261,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: usersearch,
+    source_code_link: 'https://github.com/NicholasAnich/github-user-search',
   },
 ];
 

@@ -30,6 +30,9 @@ import tesla from './company/tesla.png';
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
+import usersearch from './usersearch.png';
+import easybank from './easybank.png';
+import minportfolio from './minportfolio.png';
 
 export {
   logo,
@@ -61,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  usersearch,
+  easybank,
+  minportfolio,
 };
